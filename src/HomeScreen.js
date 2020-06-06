@@ -63,8 +63,6 @@ export const HomeScreen = ({ navigation }) => {
     return <Text>{error.message}</Text>;
   }
 
-  console.log(data);
-
   return (
     <>
       <SafeAreaView style={styles.container}>
@@ -81,7 +79,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  scrollView: {},
   item: {
     backgroundColor: '#f9c2ff',
     padding: 20,
